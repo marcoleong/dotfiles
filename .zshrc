@@ -48,4 +48,4 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.path
 
 # Hide hostname
-DEFAULT_USER="true"
+DEFAULT_USER="leongmarco"
