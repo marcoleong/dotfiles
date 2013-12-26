@@ -46,3 +46,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 source $HOME/.path
+
+# Hide hostname
+DEFAULT_USER="true"
