@@ -10,7 +10,7 @@ alias -- -="cd -"
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/Projects"
+alias p="cd ~/development"
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -64,8 +64,8 @@ alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
 
 # View HTTP traffic
-alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
-alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
+alias sniff="sudo ngrep -d 'en0' -t '^(GET|POST) ' 'tcp and port 80'"
+alias httpdump="sudo tcpdump -i en0 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
 
 # Canonical hex dump; some systems have this symlinked
 command -v hd > /dev/null || alias hd="hexdump -C"
@@ -130,3 +130,8 @@ done
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 7'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
+
+alias web="cd ~/development/web_projects"
+alias dev="cd ~/development"
+
+# alias sshUmstwo="ssh 202.175.81.236 -L 2231:172.22.3.1:22 -L 2232:172.22.3.2:22 -L 2233:172.22.3.3:22 -L 2234:172.22.3.4:22 -L 2235:172.22.3.5:22"

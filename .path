@@ -1,0 +1,7 @@
+export PATH="/usr/local/share/npm/bin:/usr/local/bin:$PATH"
+
+export PATH="/Applications/MAMP/bin/php/php5.4.4/bin:$PATH"
+
+export PATH="/Developer/NVIDIA/CUDA-5.0/bin:$PATH"
+
+export PATH="/Users/leongmarco/development/java/adt-bundle-mac-x86_64-20130522/sdk/platform-tools:/Users/leongmarco/development/java/adt-bundle-mac-x86_64-20130522/sdk/tools:$PATH"

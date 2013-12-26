@@ -25,6 +25,12 @@
 	reb = "!r() { git rebase -i HEAD~$1; }; r"
 	# Undo a `git push`
 	undopush = push -f origin HEAD^:master
+	# ci as commit
+	ci = commit
+	# co as checkout
+	co = checkout
+	# br as branch
+	br = branch
 
 [apply]
 	# Detect whitespace errors when applying a patch
@@ -77,4 +83,8 @@
 	insteadOf = "gist:"
 
 [push]
-	default = simple
+	default = current
+
+[user]
+	name = Marco Leong
+	email = marcogood411@gmail.com
