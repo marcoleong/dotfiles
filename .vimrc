@@ -16,6 +16,7 @@ Bundle 'benmills/vimux'
 Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'scrooloose/nerdtree'
 
 " Omni completion
 filetype plugin on
